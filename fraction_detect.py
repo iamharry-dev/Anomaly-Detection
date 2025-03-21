@@ -179,7 +179,7 @@ def run(
 
                     # sent alert to telegram using bot
                     s = names[int(c)]
-                    bot_token = "6034175036:AAEZ-Npm6ZOpf0p2W31Mb-bhSqphfegK1ew"
+                    bot_token = ""  #create a telegrambot and paster tokken here
                     chat_id = "-623564562"
 
                     # Create a bot instance
