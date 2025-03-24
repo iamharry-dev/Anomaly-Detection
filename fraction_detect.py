@@ -1,5 +1,5 @@
 """
-    $ python detect.py --weights yolov5s.pt --source 0      
+    $ python fraction_detect.py --weights yolov5s.pt --source 0      
 
 """
 
@@ -180,7 +180,7 @@ def run(
                     # sent alert to telegram using bot
                     s = names[int(c)]
                     bot_token = ""  #create a telegrambot and paster tokken here
-                    chat_id = "-623564562"
+                    chat_id = ""
 
                     # Create a bot instance
                     bot = telegram.Bot(token=bot_token)
